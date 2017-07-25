@@ -1,0 +1,214 @@
+body{
+
+}
+.navbar-custom{
+    height:5em;
+    background-color: #595959;
+}
+.container-fluid{
+    padding:0;
+}
+.panel-group{
+    margin-bottom: 0;
+}
+.navbar-brand{
+    color:white;
+}
+#mynav{
+    margin-top: 1em;
+}
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+    padding:0px;
+}
+
+.main-content {
+    background: url("../images/slide3.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 15%;
+    padding-bottom: 25%;
+    color:#ff751a;
+    font-family:ariel;
+}
+.dash{
+    margin-top: 5%;
+}
+.getpay{
+
+    margin-top: 7%;
+}
+.bg_white {
+    border: 1px solid grey;
+    background-color: white;
+    height:350px;
+    width:300px;
+}
+.bg_white h3{
+    color: black;
+}
+.bg_dash{
+    background-color: #e6e6e6;
+}
+.jumbotron{
+    margin-top:6em;
+}
+
+@media (min-width : 992px) and (max-width : 1200px) {
+    .jumbotron h1{
+        font-size: 48px;
+    }
+}
+@media (min-width :768px)and(max-width : 992px) {
+    .jumbotron h1 {
+        font-size: 45px;
+    }
+}
+@media (max-width : 768px) {
+    .jumbotron h1 {
+        font-size: 27px;
+    }
+}
+@media (max-width : 480px) {
+    .jumbotron h1 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width : 360px) {
+    .jumbotron h1 {
+        font-size: 18px;
+    }
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {height: 1500px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+    background-color:grey;
+    height: 1500px;
+}
+.panel-custom {
+    background-color:grey;
+    color:white;
+
+}
+/**************************   Template    *********************************/
+.div_go_pos{
+    position: relative;
+    margin-top:5%;
+    align:center;
+}
+
+.image-wrapper{
+    margin: auto;
+    height: 450px;
+    max-height: 450px;
+}
+
+
+
+@media (min-width : 992px) and (max-width : 1200px) {
+    .image-wrapper{
+        margin: auto;
+        height: 450px;
+        max-height: 450px;
+    }
+}
+@media (min-width :768px)and(max-width : 992px) {
+    .image-wrapper{
+        margin: auto;
+        height: 450px;
+        max-height: 450px;
+    }
+}
+@media (max-width : 768px) {
+    .image-wrapper{
+        margin: auto;
+        height: 250px;
+        max-height: 450px;
+    }
+}
+@media (max-width : 480px) {
+    .image-wrapper{
+        margin: auto;
+        height: 450px;
+        max-height: 450px;
+    }
+}
+
+@media (max-width : 360px) {
+    .image-wrapper{
+        margin: auto;
+        height: 250px;
+        max-height: 250px;
+    }
+}
+
+
+/*****************************           Invoice               ***************************/
+.invoice-layout{
+    margin:5%;
+    margin-top: 0;
+}
+
+.invoice-content{
+    border:2px solid blue;
+    margin-top: 2%;
+    background-color: white;
+}
+.content-layout{
+    margin: 2%;
+}
+.item-strip{
+    background-color: #bfbfbf;
+    border-bottom: 2px solid black;
+}
+.item-edit{
+    background-color: #bfbfbf;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    text-align: center;
+
+}
+.item-edit a{
+    color: #000000;
+    font-family: cursive;
+    font-weight: bold;
+}
+.item-text{
+    margin-left:2%;
+}
+
+.item-input{
+
+    margin-right:2%;
+}
+
+.item-tax{
+    margin-left: 4%;
+    padding-right: 6.5%;
+}
+
+.note-text{
+    border-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.panel-heading{
+   padding-top: 15px;
+    padding-bottom: 0px;
+}
+
+input{
+
+}
